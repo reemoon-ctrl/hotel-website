@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.nav-bar{
+    list-style:none;
+    overflow: auto;
+    /* clear:both; */
+    background: #333333;
+}
+.title{
+    float: left;
+}
+.bag-nav{
+    float: right;
+}
+.nav-bar li a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+}
+.nav-bar li a:hover{
+    background: #444444;
+    color:#ecc08a;
+}
+
+.mainheader{
+    background-image: url("img/showcase.jpg");
+
+}

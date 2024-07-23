@@ -1,0 +1,393 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.nav-bar{
+    list-style:none;
+    overflow: auto;
+    /* clear:both; */
+    background: #333333;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+    
+}
+
+.bag-nav-row{
+    margin-right: 20%;
+}
+.title{
+    float: left;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size:30px ;
+    
+    text-align: center;
+    padding:30px 0px;
+    
+}
+.title  a{
+    text-decoration: none;
+    color:#fff
+}
+
+
+.bag-nav{
+    float: right;
+    font-size: 30px;
+   
+}
+.bag-nav-row li a{
+    text-decoration: none;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    color: #fff;
+}
+
+.bag-nav-row li a:hover{
+    background: #444444;
+    color:#ecc08a;
+}
+.bag-nav-row li a:active{
+    background: #444444;
+    color:#ecc08a;
+}
+
+
+.mainheader{
+     background-image: url("img/showcase.jpg")  ;
+   /* background-size:cover;
+    
+    
+    height: 600px; */
+    
+   
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mainheadertxt{
+    margin: auto;
+    top:50%;
+    position:relative;
+    text-align: center;
+    /* margin-top: 20px; */
+    color:#fff;
+}
+.mainheadertxt h3{
+    font-size:xx-large;
+
+}
+
+.mainheadertxt p{
+    margin:20px;
+}
+.mainheadertxt a{
+    position:relative;
+    display: block;
+    width: fit-content;
+    background: #444444;
+    text-decoration:none ;
+    color: #fff;
+    top:50%;
+    margin:auto;
+    
+
+    padding: 20px;
+}
+.fword{
+    color:#ecc08a
+}
+.main-content{
+    width:100%;
+    height:300px;
+    overflow: auto;
+    background: #444444;
+    color: #fff;
+}
+.hotelimg{
+    width:50%;
+    float:left;
+    height:300px;
+    
+}
+.hotel-disc{
+    width:50%;
+    float:right;
+    text-align: center;
+    /* margin-top:px; */
+    line-height: 1.5;
+    padding:20px;
+    
+}
+.hotel-disc h3{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.hotel-disc a{
+    position:relative;
+    display: block;
+    width: fit-content;
+    
+    text-decoration:none ;
+    color: #333333;
+    padding: 15px;
+    margin:auto;
+    margin-top: 20px;
+    background: #fff;
+    
+}
+
+.aside-bar{
+    height: 300px;
+    overflow: auto;
+    clear:both;
+
+}
+.ul{
+    list-style: none;
+    text-align: center;
+    margin:auto;
+    height:300px;
+}
+.fli{
+    padding: 60px;
+    margin: auto;
+    float: left;
+    width:33%;   
+    height: 300px;
+    padding: 90px 20px;
+}
+.fli h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.sli h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.thli h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.sli{
+    float:left;
+    width:33%;
+    background-color:#ecc08a;
+    height: 300px;
+    padding: 90px 20px;
+
+}
+.thli{
+    float:right;
+    width:33%;
+    height: 300px;
+    margin: auto;
+    height: 300px;
+    padding: 90px 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background: #444444;
+    padding: 20px;
+}
+/* ///////////////about website////////////////// */
+.s-header{
+    overflow: auto;
+    clear: both;
+    margin: auto;
+    margin: 50px 20%;
+    /* height: 500px; */
+}
+.header-content{
+    float:left;
+    width:40%;
+    
+}
+.header-content h1{
+    font-size: 50px;
+}
+.header-content p{
+    font-size: 28px;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+.hotel-img2{
+    height:400px;
+    width: 40%;
+    float: right;
+    border-radius:50%;
+}
+.comment{
+    overflow: auto;
+    background:#ecc08a;
+    margin: 20px 20%;
+    border-radius: 20px;
+
+}
+.aside-content{
+    background-image: url(img/test-bg.jpg) ;
+    background-color: #cccccc;
+    height:900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  
+  
+  
+}
+.aside-content h1{
+    margin: 20px 20%;
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.comment img{
+    padding-top: 30px;
+width:200px ;
+height:200px ;
+border-radius: 200px;
+float: left;
+padding-right: 20px;
+padding-left: 20px;
+margin-bottom: 50px;
+}
+.comment p{
+padding-top: 70px;
+font-size: 28px;
+color: #333333;
+
+   
+}
+/* ///////////////about style///////////// */
+form h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+  
+}
+form p{
+    font-size: 25px;
+        
+}
+
+.form-label label{
+    display: block;
+
+}
+.form-label input{
+    width:100%;
+    padding:10px;
+    font-size: 28px;
+    border:#ddd solid 1px;
+    /* border: 3px solid #ccc; */
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    
+}
+.form-label input[type=text]:focus{
+    border: 2px solid #ecc08a;
+}
+.form-label{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.submit-input:hover{
+    border: 2px solid #ecc08a;
+    background: #ecc08a;
+    color:#444444;
+}
+textarea{
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* background-color: #f8f8f8; */
+    resize:none;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    
+}
+textarea:focus{
+    border: 2px solid #ecc08a;
+}
+.submit-input{
+ padding: 20px;
+ /* text-align: center; */
+ width:200px;
+ cursor: pointer;
+ margin: 30px 0px;
+ background: #333333;
+ color: #FFF;
+ font-size: 20px;
+
+ 
+}
+.form-container{
+    margin: 40px 20%;
+    height:1000px;
+}
+.fli-about{
+    padding: 60px;
+    margin: auto;
+    float: left;
+    width:33%;   
+    height: 300px;
+    padding: 90px 20px;
+    background: #333333;
+}
+.fli-about h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.sli-about h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.thli-about h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.sli-about{
+    float:left;
+    width:33%;
+    color: ;
+    height: 300px;
+    padding: 90px 20px;
+
+}
+.thli-about{
+    float:right;
+    width:33%;
+    height: 300px;
+    margin: auto;
+    height: 300px;
+    padding: 90px 20px;
+    background: #333333;
+}
+.ul-about{
+    list-style: none;
+    text-align: center;
+    margin:auto;
+    height:300px;
+    background: #333333;
+}
+
+

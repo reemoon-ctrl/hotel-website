@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .form{
+        /* color:rgb(135, 139, 139); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        flex-direction: column;
+        background: #2b4167;
+        line-height: 1.3;
+        
+    }
+    .container{
+        margin: auto;
+        
+        width:30%;
+        padding: 20px;
+        background: white;
+        padding: 20px;
+        
+    }
+    body{
+        min-height: 100vh;
+    }
+    .caption{
+        text-align: center;
+        padding:0px;
+
+    }
+    .caption:first-child{
+      font-weight: 700;
+    }
+    lablel{
+        margin:0px;
+        
+    }
+    .input{
+        width: 100%;
+        padding-left: 20px;
+    }
+    #submit-btn{
+        width:100%;
+        border-radius:3px;
+        background:  #40ba97;
+        color:white;
+        border: #FFF;
+        padding: 5px 10px;
+    }
+</style>
+</head>
+
+<body>
+    
+        <form class="form" action="/action_page.php">
+            <div class="container">
+                <p class="caption">Sign Up</p>
+                <p class="caption">nkefahiegfagiga;g</p>
+                
+                <label for="fname">First name:</label><br>
+                <input class="input" type="text" id="fname" name="fname" value="John"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input class="input" type="text" id="lname" name="lname" value="Doe"><br><br>
+                <label for="Email ">Email</label><br>
+                <input class="input" type="text" id="email" name="Email" value="john@gmail.com"><br><br>
+                <label for="password">password</label><br>
+                <input  class="input"type="password" id="password" name="password" value="fffffff"><br><br>
+                <label for="password">password</label><br>
+                <input class="input" type="password" id="confirm password" name="confirm password" value="fffffff"><br><br>
+                <input id="submit-btn"type="submit" value="Sign Up">
+            </div>
+      </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.nav-bar{
+    list-style:none;
+    overflow: auto;
+    clear:both;
+    
+}
+.title{
+    float: left;
+}
+.bag-nav{
+    float: right;
+}
+.nav-bar li a{
+    text-decoration: none;
+    paddi
+}
